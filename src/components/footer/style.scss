@@ -98,7 +98,13 @@
             justify-content: center;
 
             span {
-                margin: 1rem
+                margin: 10px;
+                display: block;
+
+                @include small-screen {
+                    @include typography(14px, 400, 22px);
+                    display: unset;
+                }
             }
 
             @include small-screen {

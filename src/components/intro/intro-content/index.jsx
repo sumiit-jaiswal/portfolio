@@ -2,7 +2,6 @@ import React from "react";
 
 import "./style.scss";
 import rocket from "../../../images/rocket.png";
-import hand from "../../../images/hand.png";
 import CallToAction from "../../shared/CallToAction";
 import { scrollToSection } from "../../utils/helpers";
 

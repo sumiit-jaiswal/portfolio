@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaStackOverflow,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import Section from "../shared/section";
 import Logo from "../../images/logo.png";

@@ -2,10 +2,14 @@
 @import "../../../style-config/mixins.scss";
 
 .section {
-    padding: 100px 0;
+    padding: 50px 0;
     position: relative;
     display: flex;
     justify-content: center;
+
+    @include small-screen {
+        padding: 100px 0;
+    }
 
     &.dark {
         background-color: $black;
@@ -30,8 +34,14 @@
             color: $white;
             max-width: 500px;
 
+            // margin-bottom: 10px;
+            h2 {
+                margin: 20px 0;
+            }
+
             @include small-screen {
                 text-wrap: nowrap;
+                // margin-bottom: 20px;
             }
         }
     }

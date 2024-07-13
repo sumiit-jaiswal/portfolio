@@ -1,7 +1,6 @@
 import React from "react";
 
 import Arrow from "../arrow";
-import { scrollToSection } from "../../utils/helpers";
 
 import "./style.scss";
 
