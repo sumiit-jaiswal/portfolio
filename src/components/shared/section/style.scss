@@ -1,0 +1,38 @@
+@import "../../../style-config/variable.scss";
+@import "../../../style-config/mixins.scss";
+
+.section {
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &.dark {
+        background-color: $black;
+
+    }
+
+    &.light {
+        background-color: $black-light;
+    }
+
+    .content {
+        width: 1200px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .section-title {
+
+            width: 100%;
+            text-align: center;
+            color: $white;
+            max-width: 500px;
+
+            @include small-screen {
+                text-wrap: nowrap;
+            }
+        }
+    }
+}
